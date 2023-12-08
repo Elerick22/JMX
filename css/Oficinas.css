@@ -1,0 +1,8 @@
+
+#Layer1:hover img {
+ transform: scale(1.1);
+ }
+ #img1 {
+animation: zoomAnimation 2.0s ease-in-out infinite alternate;
+}/* CSS Document */
+

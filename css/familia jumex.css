@@ -1,0 +1,12 @@
+
+#img1 {
+animation: zoomAnimation 2.5s ease-in-out infinite alternate;
+}
+@keyframes zoomAnimation {
+0%{
+transform: scale(1);
+}
+100%{
+transform: scale(1.1);
+}/* CSS Document */
+

@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento sin t&iacute;tulo</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #214EC5;
+}
+#Layer1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+	left: -22px;
+	top: -8px;
+}
+#Layer2 {
+	position:absolute;
+	width:1157px;
+	height:666px;
+	z-index:2;
+	left: 56px;
+	top: -62px;
+}
+#Layer3 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:3;
+	left: 379px;
+	top: 106px;
+}
+#Layer4 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:3;
+}
+#Layer5 {
+	position:absolute;
+	width:438px;
+	height:443px;
+	z-index:3;
+	left: 1028px;
+	top: 32px;
+}
+#Layer6 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:4;
+	left: 121px;
+	top: 206px;
+}
+-->
+</style>
+<link href="../css/comentarios.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v18.0" nonce="46zP7fcc"></script>
+<input type="submit" name="Submit" value="Enviar" />
+<div id="Layer2"><img id="img1"src="../imagenes/Comentarios pag.png" alt="comentarios" width="1491" height="910" /></div>
+<div id="Layer6"><img id="img1"src="../imagenes/Naranja Feliz.png" width="534" height="438" /></div>
+<div id="Layer1"><img id="img1" src="../imagenes/FONDO AMARILLO.png" width="1807" height="986" /></div>
+
+<div id="Layer5">
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #comment-box {
+            width: 300px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        #comment-box h2 {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            margin: 0;
+            text-align: center;
+        }
+
+        #comment-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .comment {
+            border-bottom: 1px solid #eee;
+            padding: 15px;
+            margin: 0;
+        }
+
+        #comment-text {
+            width: calc(100% - 20px);
+            padding: 10px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 1px solid #ddd;
+            border-radius: 0;
+            margin: 10px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        #comment-text:focus {
+            border-color: #3498db;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 14px;
+            width: calc(100% - 20px);
+            margin: 0 10px 10px;
+            outline: none;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+<div id="comment-box">
+    <h2>Comentarios</h2>
+    <ul id="comment-list"></ul>
+    <textarea id="comment-text" rows="4" placeholder="Escribe tu comentario"></textarea>
+    <button onclick="agregarComentario()">Agregar Comentario</button>
+</div>
+
+<script>
+    function agregarComentario() {
+        var comentario = document.getElementById("comment-text").value;
+
+        if (comentario.trim() !== "") {
+            var listaComentarios = document.getElementById("comment-list");
+            var nuevoComentario = document.createElement("li");
+            nuevoComentario.className = "comment";
+            nuevoComentario.textContent = comentario;
+            listaComentarios.appendChild(nuevoComentario);
+
+            document.getElementById("comment-text").value = "";
+        }
+    }
+</script></div>
+</head
+></body>
+</html>
